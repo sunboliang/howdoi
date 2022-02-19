@@ -41,6 +41,9 @@ from pyquery import PyQuery as pq
 from requests.exceptions import ConnectionError as RequestsConnectionError
 from requests.exceptions import SSLError
 
+from colorama import init
+init()
+
 from howdoi import __version__
 from howdoi.errors import GoogleValidationError, BingValidationError, DDGValidationError
 
